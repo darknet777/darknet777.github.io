@@ -1,58 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
 body {
     background-color: #000000;
     color: white;
-    font-family: Ubuntu, serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
-div {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.profile-header {
-    font-family: Rubik, sans-serif;
-    padding: 0;
-}
-
-.profile-greet {
-    font-size: 50px;
-    padding: 0;
-}
-
-.profile-name {
-    font-size: 25px;
-    padding: 0;
-}
-
-.profile {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-
-}
-
-img#profilePic {
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-#icon {
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 35px;
-    height: 35px;
+h1 {
+    font-family: 'Space Mono', monospace;
 }
